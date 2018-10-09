@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Economica', sans-serif;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+video{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform:translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 50%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.container{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  margin-top: 150px;
+  font-size: 1.5em;
+}
+
+.contentCon{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/***************************************
+
+*****************************************/
+h1{
+  font-size: 3em;
+}
+h2{
+  text-transform: capitalize;
+}
+
+select{
+  height:40px;
+  background-color: rgb(0,0,0,0.5);
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 1em;
+}
+
+/***************************************
+Sign content
+*****************************************/
+img{
+  height:200px;
+}
+#capricorn{
+  display: none;
+}
+#aquarius{
+  display: none;
+}
+#pisces{
+  display: none;
+}
+#aries{
+  display: none;
+}
+#taurus{
+  display: none;
+}
+#gemini{
+  display: none;
+}
+#cancer{
+  display: none;
+}
+#leo{
+  display: none;
+}
+#virgo{
+  display: none;
+}
+#libra{
+  display: none;
+}
+#scorpio{
+  display: none;
+}
+#saggitarius{
+  display: none;
+}
+
+/***************************************
+
+*****************************************/
+
+
+/***************************************
+MEDIA QUERIES
+*****************************************/
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+
+}
